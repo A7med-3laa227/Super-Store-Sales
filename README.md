@@ -17,10 +17,9 @@ A three-page Power BI dashboard that analyzes the sales performance of a US reta
 7. [Key Business Questions](#key-business-questions)
 8. [Key Insights](#key-insights)
 9. [Repository Structure](#repository-structure)
-10. [How to Run the Project](#how-to-run-the-project)
-11. [Screenshots](#screenshots)
-12. [Future Improvements](#future-improvements)
-13. [Author](#author)
+10. [Screenshots](#screenshots)
+11. [Future Improvements](#future-improvements)
+12. [Author](#author)
 
 ## Project Overview
 
