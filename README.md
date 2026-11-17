@@ -151,41 +151,6 @@ Super-Store-Sales/
     └── validate_data.py
 ```
 
-The Power BI file and the Excel dataset are the original files, moved into folders without any change to their contents. No license file is included: the dataset's origin and redistribution terms could not be verified, so a license that covers it cannot responsibly be chosen.
-
-## How to Run the Project
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/A7med-3laa227/Super-Store-Sales.git
-   cd Super-Store-Sales
-   ```
-2. **Dataset:** the Excel file is in [`data/`](data); no download is required.
-3. **Open the report:** open `dashboard/Super Store Sales.pbix` in **Power BI Desktop** (Windows). The data is stored inside the file, so the report works without refreshing.
-4. **Refresh the data (optional):** the saved data source points to a `Downloads` folder on the original author's computer, so Refresh fails elsewhere. To refresh, go to *Home > Transform data > Data source settings > Change Source...* and select `data/SuperStore Sales DataSet.xlsx`. Use *File > Save As* to save a copy if you do not want to alter the repository file.
-5. **Explore:** use the Region slicer, click chart elements to cross-filter, and move between pages with the page navigator on the left.
-
-To reproduce the checks and figures in the documentation (optional):
-
-```bash
-pip install pandas openpyxl
-python scripts/validate_data.py
-```
-
-## Screenshots
-
-Dashboard screenshots have not been added yet; they must be exported from Power BI Desktop. To add them:
-
-1. Open the PBIX file in Power BI Desktop and select each page in turn.
-2. Capture the page at 100% zoom (for example with *Win + Shift + S*) or use *File > Export > Export to PDF* and convert the pages to images.
-3. Save the files in a new `images/` folder as `home.png`, `trend.png` and `forecasting.png`.
-4. Replace this section's text with:
-
-```markdown
-![Home page](images/home.png)
-![Trend page](images/trend.png)
-![Forecasting page](images/forecasting.png)
-```
 
 ## Future Improvements
 
