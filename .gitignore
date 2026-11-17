@@ -1,0 +1,24 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel / Office temporary lock files
+~$*
+*.tmp
+
+# Power BI local cache and settings (never needed in the repository)
+.pbi/
+cache.abf
+localSettings.json
+
+# Python (validation script)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
